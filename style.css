@@ -1,0 +1,58 @@
+html, body {
+  background-color: black;
+  font-family: 'VT323', monospace;
+
+}
+
+h1 {
+  color: white;
+
+}
+
+h2 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#calcOutput {
+  background-color: white;
+  width: 250px;
+  height: 75px;
+  border-top-left-radius: 2em; /* Doesn't change area only the border */
+  border-top-right-radius: 2em;
+  margin: auto; /* Centers div */
+  margin-top: 20px;
+  padding-top: 20px;
+
+
+}
+
+#calculator {
+  background-color: grey;
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  margin: auto; /* Centers div */
+}
+
+/* Edit output */
+#steps {
+  padding-left: 50px;
+  font-size: 2em;
+
+}
+
+/* Edit buttons */
+a {
+  margin: 5px; /* Space inbetween everything */
+  /* Auto formatting so everyting looks similar to each other with viewwindow*/
+   width: 1.5vw;
+  height: 1.5vw;
+}
+
+.bigButton {
+  width: 93px; /* Two big buttons @ bottom of calculator */
+}
